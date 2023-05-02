@@ -55,9 +55,9 @@ def E(i,j):
 def main():
   global a,b
   # Amino acid sequence
-  a = 'LVM'
+  a = 'LV'
   # Nucleotide sequence
-  b = 'TTAGTTATG' 
+  b = 'CTGGTT' 
 
   global n,m
   #Length of sequence a
@@ -84,10 +84,10 @@ def main():
       else:
         E(i,j)
 
+    for rows in matrix_E:
+        print(rows)
+    print()
     j_index = j_index + 1
-    
-  for rows in matrix_E:
-    print(rows)
 
 if __name__ == '__main__':
   main()
