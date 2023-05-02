@@ -85,9 +85,10 @@ def main():
         E(i,j)
 
     j_index = j_index + 1
+    
   for rows in matrix_E:
     print(rows)
-    
+
 if __name__ == '__main__':
   main()
 

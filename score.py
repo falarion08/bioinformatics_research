@@ -1,4 +1,4 @@
-# Without using PAM250
+# A simple scoring system for matching amino acid
 def d(amino_acid_A, amino_acid_B):
   if amino_acid_A == amino_acid_B:
     return 3
